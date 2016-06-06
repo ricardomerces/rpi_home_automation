@@ -4,7 +4,7 @@ Base para projetos de automação residencial com o Raspberry Pi
 Raspberry Pi</br>
 Relay Module
 # Fluxo de Comunicação
-App Android --> Servidor Web (Apache) --> PHP --> Python --> GPIO Raspberry
+App Android --> Web Server (Apache) --> PHP --> Python --> GPIO Raspberry
 # App Android
 Desenvolvido no MIT APP Inventor 2 - http://appinventor.mit.edu/</br>
 Source: automacao.aia </br>
