@@ -8,3 +8,6 @@ Source: automacao.aia </br>
 APP: automacao.apk</br>
 # GPIO
 Foi utilizado o Pino 17. (scripts python)</br>
+# Instruções
+1. Copiar o diretório GPIO para /home/pi</br>
+2. Copiar o arquivo php/automacao.php para /var/www/html (diretório home do servidor web)
