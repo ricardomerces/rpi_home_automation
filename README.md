@@ -1,4 +1,4 @@
-# rpi_home_automation
+# Rpi Home Automation
 Baseline for home automation projects with the Raspberry Pi
 # Hadware
 Raspberry Pi</br>
