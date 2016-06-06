@@ -1,7 +1,7 @@
 # rpi_home_automation
 Base para projetos de automação residencial com o Raspberry Pi
 # Hadware
-Raspeberry Pi</br>
+Raspberry Pi</br>
 Relay Module
 # Fluxo de Comunicação
 App Android --> Servidor Web (Apache) --> PHP --> Python --> GPIO Raspberry
