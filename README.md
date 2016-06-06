@@ -1,16 +1,16 @@
 # rpi_home_automation
-Base para projetos de automação residencial com o Raspberry Pi
+Baseline for home automation projects with the Raspberry Pi
 # Hadware
 Raspberry Pi</br>
 Relay Module
 # Fluxo de Comunicação
 App Android --> Web Server (Apache) --> PHP --> Python --> GPIO Raspberry
 # App Android
-Desenvolvido no MIT APP Inventor 2 - http://appinventor.mit.edu/</br>
+Developed at MIT App Inventor 2 - http://appinventor.mit.edu/</br>
 Source: automacao.aia </br>
 APP: automacao.apk
 # GPIO
-Foi utilizado o Pino 17. para conexão com o relay molude(scripts python)</br>
+It used the <b>Pin 17</b> for connection to the relay molude (scripts python)</br>
 # Instruções
-1. Copiar o diretório <b>GPIO</b> para <b>/home/pi</b></br>
-2. Copiar o arquivo <b>php/automacao.php</b> para <b>/var/www/html</b> (diretório home do servidor web)
+1. Copy directory <b>GPIO</b> to <b>/home/pi</b></br>
+2. Copy file <b>php/automacao.php</b> to <b>/var/www/html</b> (DocumentRoot Apache)
