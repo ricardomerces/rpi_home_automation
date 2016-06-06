@@ -9,5 +9,5 @@ APP: automacao.apk</br>
 # GPIO
 Foi utilizado o Pino 17. (scripts python)</br>
 # Instruções
-1. Copiar o diretório GPIO para /home/pi</br>
-2. Copiar o arquivo <b>php/automacao.php</b> para /var/www/html (diretório home do servidor web)
+1. Copiar o diretório <b>GPIO</b> para <b>/home/pi</b></br>
+2. Copiar o arquivo <b>php/automacao.php</b> para <b>/var/www/html</b> (diretório home do servidor web)
