@@ -4,3 +4,5 @@ Base para projetos de automação residencial com o Raspberry Pi
 App Android --> Servidor Web (Apache) --> PHP --> Python --> GPIO Raspberry
 # App Android
 Desenvolvido no APP Inventor 2
+Source automacao.aia
+APP automacao.apk
