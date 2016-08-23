@@ -9,6 +9,7 @@ DEVICE 2 pin11 (GPIO17)
 DEVICE 3 pin12 (GPIO18)
 DEVICE 4 pin13 (GPIO21)
 DEVICE 5 pin15 (GPIO22)
+DEVICE 6 pin16 (GPIO23)
 ========================================
 -->
 
@@ -54,9 +55,17 @@ if (isset($_POST['5OFF']))
 {
 exec('python /home/pi/GPIO/automate.py 15 1');
 }
+if (isset($_POST['6ON']))
+{
+exec('python /home/pi/GPIO/automate.py 16 0');
+}
+if (isset($_POST['6OFF']))
+{
+exec('python /home/pi/GPIO/automate.py 16 1');
+}
 ?>
 
-  <title></title>
+<title></title>
 </head>
 <body>
 <form method="post">
@@ -87,7 +96,13 @@ exec('python /home/pi/GPIO/automate.py 15 1');
         <td style="text-align: center;"><button name="5ON">ON</button></td>
         <td style="text-align: center;"><button name="5OFF">OFF</button></td>
       </tr>
+      <tr>
+        <td style="text-align: center;">DEVICE 6</td>
+        <td style="text-align: center;"><button name="6ON">ON</button></td>
+        <td style="text-align: center;"><button name="6OFF">OFF</button></td>
+      </tr>
   </table>
 </form>
 </body>
 </html>
+
