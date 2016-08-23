@@ -12,11 +12,11 @@ Source: automacao.aia </br>
 APP: automacao.apk
 # GPIO
 Connection Devices</br>
-DEVICE 1 --> Pin7 (GPIO4)</br>
-DEVICE 2 --> Pin 11 (GPIO17)</br>
-DEVICE 3 --> Pin 12 (GPIO18)</br>
-DEVICE 4 --> Pin 13 (GPIO21)</br>
-DEVICE 5 --> Pin 15 (GPIO22)</br>
+DEVICE 1 --> <b>Pin7</b> (GPIO4)</br>
+DEVICE 2 --> <b>Pin 11</b> (GPIO17)</br>
+DEVICE 3 --> <b>Pin 12</b> (GPIO18)</br>
+DEVICE 4 --> <b>Pin 13</b> (GPIO21)</br>
+DEVICE 5 --> <b>Pin 15</b> (GPIO22)</br>
 # Instructions
 1. Copy directory <b>GPIO</b> to <b>/home/pi</b></br>
 2. Copy file <b>php/index.php</b> to <b>/var/www/html</b> (DocumentRoot Apache)
