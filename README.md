@@ -14,4 +14,4 @@ APP: automacao.apk
 It used the <b>Pin 17</b> for connection to the relay molude (scripts python)</br>
 # Instructions
 1. Copy directory <b>GPIO</b> to <b>/home/pi</b></br>
-2. Copy file <b>php/automacao.php</b> to <b>/var/www/html</b> (DocumentRoot Apache)
+2. Copy file <b>php/index.php</b> to <b>/var/www/html</b> (DocumentRoot Apache)
