@@ -1,13 +1,20 @@
 import RPi.GPIO as GPIO
 import sys
+	
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
 
-n = int(sys.argv[1])
-v = int(sys.argv[2])
+def PinOUT(pin):
+	GPIO.setup(pin, GPIO.OUT)
 
-def valor(num,val):
- GPIO.setup((num),GPIO.OUT)
- GPIO.output((num),(val))
+def PortSTATE(pin, state):
+	GPIO.output(pin, state)
+
 	
-valor(n,v)
+#lendo parametros
+pin = int(sys.argv[1])
+state = int(sys.argv[2])
+
+
+PinOUT(pin)
+PortSTATE(pin, state)
