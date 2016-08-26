@@ -10,8 +10,7 @@ def PinOUT(pin):
 def PortSTATE(pin, state):
 	GPIO.output(pin, state)
 
-	
-#lendo parametros
+
 pin = int(sys.argv[1])
 state = int(sys.argv[2])
 
